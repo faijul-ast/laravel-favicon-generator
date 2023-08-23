@@ -93,7 +93,7 @@ class FaviconGenerator
      * @param String $publicPath
      * @return string
      */
-    public static function generateHtmlMetaIcons(String $publicPath = '/favicon'): string
+    public static function generateHtmlMetaIcons(String $publicPath = 'favicon'): string
     {
         $html = '
             <link rel="apple-touch-icon" sizes="180x180" href=" ' . $publicPath . '/apple-touch-icon.png">
